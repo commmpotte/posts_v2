@@ -10,7 +10,8 @@ As usual, here are some screenshots for reference.
 <img width="1279" alt="Снимок экрана 2023-03-26 в 10 07 33" src="https://user-images.githubusercontent.com/95095531/227762697-7a3eb211-b565-4a77-8a1c-44b8df8d1890.png">
 <img width="1280" alt="Снимок экрана 2023-03-26 в 10 10 16" src="https://user-images.githubusercontent.com/95095531/227762698-f42bea9f-b983-4da5-a4fb-7cba2754f928.png">
 <img width="1280" alt="Снимок экрана 2023-03-26 в 10 11 13" src="https://user-images.githubusercontent.com/95095531/227762700-6eb25611-ff4b-4ea5-98c0-6bc187719335.png">
-<img width="1280" alt="Снимок экрана 2023-03-26 в 10 39 07" src="https://user-images.githubusercontent.com/95095531/227762739-0ec4db36-7d09-4367-af01-d60b3a85b481.png">
+<img width="1280" alt="Снимок экрана 2023-03-26 в 10 10 16" src="https://user-images.githubusercontent.com/95095531/227762988-09bf94ab-4a13-4de4-a2e6-ed8a1cb75329.png">
+
 
 
 

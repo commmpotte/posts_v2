@@ -1,0 +1,39 @@
+[debug] [2023-03-26T08:15:35.631Z] ----------------------------------------------------------------------
+[debug] [2023-03-26T08:15:35.633Z] Command:       /usr/local/bin/firebase /Users/commmpotte/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init hosting
+[debug] [2023-03-26T08:15:35.633Z] CLI Version:   11.16.1
+[debug] [2023-03-26T08:15:35.633Z] Platform:      darwin
+[debug] [2023-03-26T08:15:35.633Z] Node Version:  v16.16.0
+[debug] [2023-03-26T08:15:35.634Z] Time:          Sun Mar 26 2023 11:15:35 GMT+0300 (GMT+03:00)
+[debug] [2023-03-26T08:15:35.634Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-26T08:15:35.644Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-26T08:15:35.645Z] > authorizing via signed-in user (kisel.igor.v@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/commmpotte/FrontEnd/GitHub/posts_v2
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-03-26T08:15:54.230Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-03-26T08:15:54.234Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"posts_v2","name":"posts_v2"}
+[debug] [2023-03-26T08:15:55.307Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2023-03-26T08:15:55.307Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"Request contains an invalid argument.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"},{"field":"display_name","description":"project display name contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2023-03-26T08:15:55.510Z] FirebaseError: HTTP Error: 400, Request contains an invalid argument.
+    at responseToError (/Users/commmpotte/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/responseToError.js:49:12)
+    at RetryOperation._fn (/Users/commmpotte/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
